@@ -15,4 +15,4 @@ def action(data):
     
     data = data[0]
     
-    yield [{"prediction": data["A"] + data["B"], "input": data]
+    yield [{"prediction": data["A"] + data["B"], "input": data}]
