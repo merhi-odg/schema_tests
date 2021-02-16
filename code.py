@@ -2,6 +2,8 @@
 # modelop.schema.1: output_schema.avsc
 
 import pandas as pd
+import json
+
 
 # modelop.init
 def begin():
@@ -15,4 +17,4 @@ def action(data):
     
     data = data[0]
     
-    yield [{"prediction": data["A"] + data["B"], "input": [data]}]
+    yield [{"prediction": data["A"] + data["B"], "input": json.dumps(data)}]
