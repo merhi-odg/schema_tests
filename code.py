@@ -15,4 +15,4 @@ def action(data):
     data = pd.DataFrame(data).iloc[0]
     
     
-    yield [{"prediction": data["A"] + data["B"], "input": {data.to_dict(orient='records)}}]
+    yield [{"prediction": data["A"] + data["B"], "input": {data.to_dict(orient='records')}}]
