@@ -2,11 +2,12 @@
 # modelop.schema.1: output_schema.avsc
 
 
-#modelop.init
+# modelop.init
 def begin():
 
     pass
 
+# modelop.score
 def action(data):
     
     # data = [{"A":1, "B":2}]
