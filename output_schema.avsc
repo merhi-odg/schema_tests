@@ -10,7 +10,7 @@
             },
             {
                 "name":"input",
-                "type": "array"
+                "type": "string"
             }
         ]
     }
