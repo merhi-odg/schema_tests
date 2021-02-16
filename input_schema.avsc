@@ -2,6 +2,16 @@
     "type": "array",
     "items": {
         "type": "record",
-        "name": "input_schema.avsc"
+        "name": "input_schema.avsc",
+        "fields": [
+            {
+                "name": "A",
+                "type": "double"
+            },
+            {
+                "name": "B",
+                "type": "double"
+            }
+        ]
     }
 }
