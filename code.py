@@ -7,11 +7,6 @@ import pickle
 
 # modelop.init
 def begin():
-    
-    global params
-    params = pickle.load(open("train_encoded_columns.pickle", "rb"))
-    
-    print("params: ", params, flush=True)
     pass
 
 # modelop.score
