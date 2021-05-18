@@ -16,9 +16,9 @@ def begin():
 
 # modelop.score
 def action(data):
-    
+    print("Entering Action", flush=True)
     # data = [{"A":1, "B":2}]
     
     data = data[0]
-    
-    yield [{"prediction": data["A"] + data["B"], "input": json.dumps(data)}]
+    print("after extraction", flush=True)
+    # yield [{"prediction": data["A"] + data["B"], "input": json.dumps(data)}]
