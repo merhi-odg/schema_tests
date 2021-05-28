@@ -16,4 +16,4 @@ def action(data):
     
     data = data[0]
     print("after extraction", flush=True)
-    # yield [{"prediction": data["A"] + data["B"], "input": json.dumps(data)}]
+    yield [{"prediction": data["A"] + data["B"], "input": json.dumps(data)}]
