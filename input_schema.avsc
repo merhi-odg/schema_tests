@@ -6,11 +6,11 @@
         "fields": [
             {
                 "name": "A",
-                "type": "double"
+                "type": "float"
             },
             {
                 "name": "B",
-                "type": "double"
+                "type": ["float", "null"]
             }
         ]
     }
